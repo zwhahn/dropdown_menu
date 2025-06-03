@@ -1,8 +1,8 @@
-dropdownBtn = document.getElementById("dropdown-btn");
+const dropdownBtn = document.getElementById("dropdown-btn");
 dropdownBtn.addEventListener("click", showDropdown);
 
 function showDropdown() {
   console.log("clicked");
-  dropdownContent = document.getElementById("content");
+  const dropdownContent = document.getElementById("content");
   dropdownContent.classList.toggle("show");
 }
