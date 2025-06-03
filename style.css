@@ -1,15 +1,15 @@
 * {
-    margin: 0px;
-    box-sizing: border-box;
-    padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
 }
 
 .dropdown-content {
-    display: none;
-    background-color: red;
-    width: 80px;
+  display: none;
+  background-color: red;
+  width: 80px;
 }
 
 .show {
-    display: block;
+  display: block;
 }
